@@ -3,6 +3,7 @@ module shibidev.xyz/apps/gonvm
 go 1.24
 
 require (
+	github.com/Masterminds/semver/v3 v3.3.1 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect

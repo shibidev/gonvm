@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+// Version is an extension of the semver package by Masterminds, where it does not outright fail if the version is not a valid semver.
 type Version struct {
 	*semverMaster.Version
 	originalInput string
